@@ -1,0 +1,49 @@
+/* Grupo de oraciones */
+
+.animales .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.animales .box-container .box {
+  padding: 5rem;
+  text-align: center;
+  border: var(--border);
+  border-radius: 11px;
+}
+
+.animales .box-container .box img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.animales .box-container .box h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+}
+
+.animales .box-container .box .price {
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.3rem 0 1.5rem 0; 
+}
+
+.animales .box-container .box .price span {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
+.animales .box-container .box:hover {
+  background-color: #fff;
+}
+
+.animales .box-container .box:hover > * {
+  color: var(--black);
+}
+
+

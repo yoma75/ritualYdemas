@@ -1,0 +1,32 @@
+.footer {
+  background: var(--black);
+  text-align: center;
+}
+
+.footer .share {
+  padding: 1rem;
+}
+
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  color: #fff;
+  border: var(--border);
+  margin: 0.3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.footer .share a:hover {
+  background: var(--main-color);
+  color: var(--black);
+}
+
+
+.footer .credit h4 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: none;
+  margin-top: 3rem;
+}

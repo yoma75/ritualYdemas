@@ -1,0 +1,50 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/caminoo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+
+
+
+@media (max-width:768px) {
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .content p {
+    font-size: 2.4rem;
+  }
+}
+
